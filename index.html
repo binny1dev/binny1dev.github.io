@@ -4,36 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GharYogya by Binny</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to GharYogya by Binny</h1>
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">GharYogya by Binny</h1>
+            <p class="lead">Transforming Spaces into Beautiful and Functional Environments</p>
+        </div>
     </header>
-    <section id="about">
-        <h2>About Us</h2>
-        <p>GharYogya by Binny is a premier interior design company that specializes in creating aesthetically pleasing and functional spaces. Our mission is to help you design a home that reflects your personality and style.</p>
-    </section>
-    <section id="services">
-        <h2>Services Offered</h2>
-        <ul>
-            <li>Residential Interior Design</li>
-            <li>Commercial Interior Design</li>
-            <li>Space Planning</li>
-            <li>Furniture Selection</li>
-            <li>Color Consultation</li>
-        </ul>
-    </section>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>Check out our portfolio to see some of our past projects and designs.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you're interested in our services or have any questions, please <a href="mailto:info@gharyogya.com">email us</a>.</p>
-    </section>
-    <footer>
-        <p>&copy; 2025 GharYogya by Binny</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">GharYogya</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="about" class="py-5">
+            <div class="container">
+                <h2 class="text-center">About Us</h2>
+                <p class="text-center">GharYogya by Binny is a premier interior design company that specializes in creating aesthetically pleasing and functional spaces. Our mission is to help you design a home that reflects your personality and style.</p>
+            </div>
+        </section>
+        <section id="services" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center">Services Offered</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Residential Interior Design</h4>
+                        <p>We create beautiful and functional living spaces that cater to your personal style and needs.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Commercial Interior Design</h4>
+                        <p>Our designs enhance the functionality and aesthetics of your commercial spaces.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Space Planning</h4>
+                        <p>We optimize the layout of your space to ensure maximum efficiency and comfort.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Furniture Selection</h4>
+                        <p>We help you choose the perfect furniture pieces that complement your interior design.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Color Consultation</h4>
+                        <p>Our experts provide color consultation to create a cohesive and harmonious color scheme.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Portfolio</h2>
+                <p class="text-center">Check out our portfolio to see some of our past projects and designs.</p>
+                <!-- Add portfolio images or project descriptions here -->
+            </div>
+        </section>
+        <section id="contact" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center">Contact Us</h2>
+                <p class="text-center">If you're interested in our services or have any questions, please <a href="mailto:info@gharyogya.com">email us</a>.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2025 GharYogya by Binny</p>
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
