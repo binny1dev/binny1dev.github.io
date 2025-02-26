@@ -52,7 +52,7 @@
       background-color: #ffffff;
     }
 
-    /* Adjusting the 'Our Lead Designer' heading to be slightly indented */
+    /* Adjusting the 'Meet Our Lead Designer' heading to be slightly indented */
     #lead-designer h2 {
       text-align: left;
       margin-left: 20px;
@@ -92,6 +92,22 @@
       color: #6b7a8a;
       text-decoration: none;
     }
+
+    /* Service Box Styles */
+    .service-box {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .service-box h4 {
+      margin-bottom: 15px;
+    }
   </style>
 </head>
 <body>
@@ -109,7 +125,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#lead-designer">Our Lead Designer</a></li>
+          <li class="nav-item"><a class="nav-link" href="#lead-designer">Meet Our Lead Designer</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -120,7 +136,7 @@
   <main>
     <section id="lead-designer" class="bg-light">
       <div class="container">
-        <h2>Our Lead Designer</h2>
+        <h2>Meet Our Lead Designer</h2>
         <div class="row align-items-center">
           <div class="col-md-4 text-center">
             <picture>
@@ -128,7 +144,7 @@
             </picture>
           </div>
           <div class="col-md-8">
-			<p>GharYogya Interiors by Binny is a premier interior design company dedicated to crafting aesthetically stunning and highly functional spaces. Our mission is to transform your house into a home that truly reflects your personality, lifestyle, and aspirations.</p>
+            <p>GharYogya Interiors by Binny is a premier interior design company dedicated to crafting aesthetically stunning and highly functional spaces. Our mission is to transform your house into a home that truly reflects your personality, lifestyle, and aspirations.</p>
             <p>At the heart of GharYogya Interiors is Binny, a visionary designer with an exceptional blend of technical expertise and artistic sensibility. She holds a <strong>Bachelor’s degree in Civil Engineering</strong> and a <strong>Master’s degree in Infrastructure Engineering</strong>, equipping her with deep knowledge of structural integrity, space planning, and home functionality. Complementing this, her <strong>Diploma in Interior Design</strong> from <a href="https://aaft.com/schoolofinterior" target="_blank">AAFT</a> adds a creative edge, allowing her to infuse artistic elegance into every project. This rare combination of engineering precision and design artistry enables Binny to create spaces that are not just beautiful but also structurally sound and supremely livable.</p>
             <p>At GharYogya Interiors, we don’t just design interiors—we create harmonious, intelligent, and inspiring living environments tailored to your needs.</p>
           </div>
@@ -140,78 +156,93 @@
         <h2 class="text-center">Services Offered</h2>
         <div class="row mb-4">
           <div class="col-md-4 mb-4">
-            <h4>Residential Interior Design</h4>
-            <p>With a deep understanding of structural integrity and space optimization, we craft beautiful, functional homes that reflect your personal style while ensuring practicality and durability.</p>
+            <div class="service-box">
+              <h4>Residential Interior Design</h4>
+              <p>With a deep understanding of structural integrity and space optimization, we craft beautiful, functional homes that reflect your personal style while ensuring practicality and durability. From concept to completion, we handle every aspect of the design process, including floor planning, furniture selection, and color consultation. Our goal is to create spaces that are not only visually stunning but also comfortable and livable.</p>
+            </div>
           </div>
           <div class="col-md-4 mb-4">
-            <h4>Commercial Interior Design</h4>
-            <p>Leveraging Binny’s expertise in Infrastructure Engineering, we design commercial spaces that balance aesthetics with efficiency, ensuring optimal functionality for businesses of all sizes.</p>
+            <div class="service-box">
+              <h4>Commercial Interior Design</h4>
+              <p>Leveraging Binny’s expertise in Infrastructure Engineering, we design commercial spaces that balance aesthetics with efficiency, ensuring optimal functionality for businesses of all types. Whether it's an office, retail space, or hospitality environment, we focus on creating spaces that enhance productivity, brand identity, and customer experience. Our services include space planning, custom furniture design, and lighting solutions.</p>
+            </div>
           </div>
           <div class="col-md-4 mb-4">
-            <h4>Space Planning</h4>
-            <p>Our approach to space planning integrates engineering precision with artistic sensibility, maximizing every inch of your space for comfort, flow, and usability.</p>
+            <div class="service-box">
+              <h4>Space Planning</h4>
+              <p>Our approach to space planning integrates engineering precision with artistic sensibility, maximizing every inch of your space for comfort, flow, and usability. We analyze your space’s potential and create layouts that enhance functionality and visual appeal. Our space planning services ensure that your home or office is organized, efficient, and aesthetically pleasing, making the best use of available space.</p>
+            </div>
           </div>
         </div>
-		<div class="row">
+        <div class="row">
           <div class="col-md-4 mb-4">
-            <h4>Furniture Selection</h4>
-            <p>Guided by both technical knowledge and design expertise, we curate furniture that not only complements your interiors but also fits seamlessly within the spatial dynamics of your home or office.</p>
+            <div class="service-box">
+              <h4>Furniture Selection</h4>
+              <p>Guided by both technical knowledge and design expertise, we curate furniture that not only complements your interiors but also fits seamlessly within the spatial dynamics of your home or office. We work with a variety of styles and materials to find pieces that match your taste and budget. Our furniture selection process includes sourcing, custom design, and arrangement to ensure a cohesive and harmonious look.</p>
+            </div>
           </div>
           <div class="col-md-4 mb-4">
-            <h4>Color Consultation</h4>
-            <p>With an artistic eye honed through formal training, we provide expert color consultation to create a cohesive, harmonious ambiance that enhances mood and spatial perception.</p>
+            <div class="service-box">
+              <h4>Color Consultation</h4>
+              <p>With an artistic eye honed through formal training, we provide expert color consultation to create a cohesive, harmonious ambiance that enhances mood and spatial perception. We consider factors such as lighting, room function, and personal preferences to recommend color schemes that transform your space. Our color consultation services include paint selection, accent colors, and coordination with furnishings and decor.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service-box">
+              <h4>Lighting Design</h4>
+              <p>Lighting plays a crucial role in interior design, and we specialize in creating lighting solutions that enhance the beauty and functionality of your space. From ambient to task lighting, we design and install lighting systems that highlight architectural features, improve visibility, and create the desired atmosphere. Our lighting design services include the selection of fixtures, placement planning, and integration with smart home systems.</p>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </section>
-	<section id="portfolio">
-		  <div class="container">
-			<h2 class="text-center">Portfolio</h2>
-			<div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
-			  <div class="carousel-inner">
-				<div class="carousel-item active">
-				  <img src="assets/anand-arpit-bhatt/hall.jpeg" class="d-block w-100" alt="Hall">
-				</div>
-				<div class="carousel-item">
-				  <img src="assets/anand-arpit-bhatt/kitchen.jpeg" class="d-block w-100" alt="Kitchen">
-				</div>
-				<div class="carousel-item">
-				  <img src="assets/anand-arpit-bhatt/dianing_area.jpeg" class="d-block w-100" alt="Dining Area">
-				</div>
-				<div class="carousel-item">
-				  <img src="assets/anand-arpit-bhatt/common_washbasin.jpeg" class="d-block w-100" alt="Common Washbasin">
-				</div>
-				<div class="carousel-item">
-				  <img src="assets/anand-arpit-bhatt/master_bedroom_first_floor.jpg" class="d-block w-100" alt="Master Bedroom First Floor">
-				</div>
-				<div class="carousel-item">
-				  <img src="assets/anand-arpit-bhatt/bedroom_ground_floor_view.jpeg" class="d-block w-100" alt="Bedroom Ground Floor View">
-				</div>
-				<div class="carousel-item">
-				  <img src="assets/anand-arpit-bhatt/bedroom_ground_floor.jpeg" class="d-block w-100" alt="Bedroom Ground Floor">
-				</div>
-			  </div>
-			  <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			  </a>
-			  <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			  </a>
-			</div>
-		  </div>
-		</section>
-    <section id="contact" class="bg-light">
+    <section id="portfolio" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Portfolio</h2>
+        <div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/anand-arpit-bhatt/hall.jpeg" class="d-block w-100" alt="Hall">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/anand-arpit-bhatt/kitchen.jpeg" class="d-block w-100" alt="Kitchen">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/anand-arpit-bhatt/dianing_area.jpeg" class="d-block w-100" alt="Dining Area">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/anand-arpit-bhatt/common_washbasin.jpeg" class="d-block w-100" alt="Common Washbasin">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/anand-arpit-bhatt/master_bedroom_first_floor.jpg" class="d-block w-100" alt="Master Bedroom First Floor">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/anand-arpit-bhatt/bedroom_ground_floor_view.jpeg" class="d-block w-100" alt="Bedroom Ground Floor View">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/anand-arpit-bhatt/bedroom_ground_floor.jpeg" class="d-block w-100" alt="Bedroom Ground Floor">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-5 bg-light">
       <div class="container">
         <h2 class="text-center">Contact Us</h2>
         <p class="text-center">If you're interested in our services or have any questions, please <a href="mailto:designsbybinny@gmail.com">email us</a>.</p>
-		<p class="text-center">Follow us on Instagram: <a href="https://www.instagram.com/designsbybinny/" target="_blank"><i class="fab fa-instagram"></i>designsbybinny</a></p>
+        <p class="text-center">Follow us on Instagram: <a href="https://www.instagram.com/designsbybinny/" target="_blank"><i class="fab fa-instagram"></i> @designsbybinny</a></p>
       </div>
     </section>
   </main>
-  <footer class="text-white text-center py-3">
+  <footer class="bg-dark text-white text-center py-3">
     <div class="container">
       <p>&copy; 2025 GharYogya Interiors by Binny</p>
     </div>
